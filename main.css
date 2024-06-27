@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: #16191e;
+}
+
+.Clock{
+    height: 320px;
+    width: 320px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    border: 15px soild #242931;
+    box-shadow: 15px 15px 35px rgba(0,0,0, 0.2);
+    inset: 0 0 30px rgba(0,0,0, 0.4);
+    box-sizing: content-box;
+}
